@@ -1,16 +1,16 @@
 package main
 
 import (
-    "encoding/json"
-    "flag"
-    "fmt"
-    "io/ioutil"
-    "os"
-    "os/exec"
-    "os/signal"
-    "path/filepath"
-    "strconv"
-    "strings"
+	"encoding/json"
+	"flag"
+	"fmt"
+	"io/ioutil"
+	"os"
+	"os/exec"
+	"os/signal"
+	"path/filepath"
+	"strconv"
+	"strings"
 )
 
 func captureSigint() {
